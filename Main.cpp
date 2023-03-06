@@ -6,6 +6,7 @@
 using namespace std;
 
 int main(int argc, char** argv){
+    //prepare files
     FileProcessor fp("inputFile.txt");
     ofstream outputFile("outputFile.txt");
     int L = fp.getL();
@@ -17,10 +18,10 @@ int main(int argc, char** argv){
     int koopa = fp.getKoopaProb();
     int mushroom = fp.getShroomProb();
     
+    //initialized Mario and the World
     Mario m1;
     m1.setLives(V);
     int moveCount = 0;
-    
     char*** newWorld = new char**[4];
     int* marioPosition = new int[2];
     bool levelStatus = false;

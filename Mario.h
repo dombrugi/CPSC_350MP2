@@ -21,7 +21,7 @@ class Mario{
         void fightGoomba(Mario &m1);
         bool fightBoss(Mario &m1, bool levelStatus);
         void move(Mario &m1, int* marioPosition, int gridSize, int level, int mPL, int mLives, int mKills, bool levelStatus, bool livesLeft, char*** newWorld, bool enemyStatus);
-
+        string marioResult(int* marioPosition, int coins, int PL, int lives, int level, string marioMove, string move);
 
 
         //accessors and mutators

@@ -261,6 +261,20 @@ void Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, 
     }
 } 
 
+string Mario::marioResult(int* marioPosition, int coins, int PL, int lives, int level, string marioMove, string move){ //creates a string version of Mario's attributes to be added to the output file
+    string result;
+    int marioRow = marioPosition[0];
+    int marioColumn = marioPosition[1];
+    result += "Level: " + to_string(level) + ".\n";
+    result += "Mario is at [" + to_string(marioRow) + "][" + to_string(marioColumn) + "]" + ".\n";
+    result += "Mario's power level is " + to_string(PL) + ".\n";
+    result += marioMove + "\n";
+    result += "Mario's lives are " + to_string(lives) + ".\n";
+    result += "Mario's coins are " + to_string(coins) + ".\n";
+    result += "Mario will move " + move + ".\n";
+    cout << result; 
+}
+
 
 //accessors and mutators
 int Mario::getPL(){
