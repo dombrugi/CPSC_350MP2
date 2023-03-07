@@ -17,11 +17,10 @@ class Mario{
         void gainLife();
         void loseLife();
         void gainCoin();
-        void fightKoopa(Mario &m1);
-        void fightGoomba(Mario &m1);
+        bool fightKoopa(Mario &m1);
+        bool fightGoomba(Mario &m1);
         bool fightBoss(Mario &m1, bool levelStatus);
-        void move(Mario &m1, int* marioPosition, int gridSize, int level, int mPL, int mLives, int mKills, bool levelStatus, bool livesLeft, char*** newWorld, bool enemyStatus);
-        string marioResult(int* marioPosition, int coins, int PL, int lives, int level, string marioMove, string move);
+        int move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, int mPL, int mLives, int mKills, bool levelStatus, bool livesLeft, char*** newWorld, bool enemyStatus);
 
 
         //accessors and mutators
@@ -33,12 +32,20 @@ class Mario{
         void setCoins(int coins);
         int getKills();
         void setKills(int lives);
+        bool getWon();
+        void setWon(bool won);
+        string getMove();
+        string getAction();
+
 
     private:
         int mPL;
         int mLives;
         int mCoins; 
         int mKills;
+        string mMove;
+        string mAction;
+        bool mWon;
 };
 
 

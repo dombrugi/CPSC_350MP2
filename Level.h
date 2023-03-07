@@ -14,6 +14,8 @@ class Level{
         char*** world(int levels, int gridSize, int coin, int nothing, int goomba, int koopa, int mushroom);
         int* placeItems(int gridSize, int level, char*** newWorld);
         int* placeItemsNoWarp(int gridSize, int level, char*** newWorld);
+        string toString(int levels, int gridSize);
+        string currToString(int level, int gridSize);
     private:
         char** levelArray;
         char*** newWorld;

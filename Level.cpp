@@ -14,8 +14,8 @@ Level::~Level(){
 
 
 char** Level::populate(int gridSize, int coin, int nothing, int goomba, int koopa, int mushroom) { //populate the 2D Level array with characters
-    levelArray = new char* [gridSize];
-    for(int i = 0; i< gridSize; i++) {
+    levelArray = new char*[gridSize];
+    for(int i = 0; i < gridSize; i++) {
         levelArray[i] = new char[gridSize]; // Dynamic allocation
     }
 
@@ -46,11 +46,8 @@ char** Level::populate(int gridSize, int coin, int nothing, int goomba, int koop
             else {
                 levelArray[i][j] = 'x';
             }
-            cout << levelArray[i][j];
         }
-        cout << endl;
     }
-    cout << "=======================" << endl;
     return levelArray;
 }
 
@@ -59,33 +56,47 @@ char*** Level::world(int levels, int gridSize, int coin, int nothing, int goomba
     newWorld = new char**[levels];
     for (int i = 0; i < levels; i++) {
         newWorld[i] = new char*[levels];
-        for (int j = 0; j < levels; j++) {
-            newWorld[i][j] = new char[levels];
+        for (int j = 0; j < gridSize; j++) {
+            newWorld[i][j] = new char[gridSize];
+            for(int k = 0; k < gridSize; k++){
+                newWorld[i][j][k] = ' ';
+            }
         }
     }
+
     for (int i = 0; i < levels; i++) {
         newWorld[i] = populate(gridSize, coin, nothing, goomba, koopa, mushroom);
+        if(i < levels - 1){
+            placeItems(gridSize, i, newWorld);
+        }
+        else{
+            placeItemsNoWarp(gridSize, i, newWorld);
+        }
     }
     return newWorld;
 }
 
 int* Level::placeItems(int gridSize, int level, char*** newWorld){ //place Mario, the warp pipe, and the boss in the Level
-    int* marioPosition = new int[2]; //initialize an array to store the indexes of Mario's position in the array
+    int* marioPosition = new int[1]; //initialize an array to store the indexes of Mario's position in the array
     srand((unsigned)time(0));
 
     //generate random indexes for Mario, warp, and boss
-    int randMario1 = rand()%gridSize;
-    int randMario2 = rand()%gridSize;
-    int randWarp1 = (rand()%gridSize);
-    int randWarp2 = (rand()%gridSize);
-    int randBoss1 = (rand()%gridSize);
-    int randBoss2 = (rand()%gridSize);
+    int randMario1 = rand() % gridSize;
+    int randMario2 = rand() % gridSize;
+    int randWarp1 = rand() % gridSize;
+    int randWarp2 = rand() % gridSize;
+    int randBoss1 = rand() % gridSize;
+    int randBoss2 = rand() % gridSize;
 
-    while (bool notSame = true) { //make sure the warp, boss, and Mario don't get placed in the same index
+    while (true) { //make sure the warp, boss, and Mario don't get placed in the same index
         if (randMario1 != randWarp1 && randMario1 != randBoss1 && randWarp1 != randBoss1 && randMario2 != randWarp2 && randMario2 != randBoss2 && randWarp2 != randBoss2){
             newWorld[level][randMario1][randMario2] = 'H';
             newWorld[level][randWarp1][randWarp2] = 'w';
             newWorld[level][randBoss1][randBoss2] = 'b';
+
+            marioPosition[0] = randMario1;
+            marioPosition[1] = randMario2;
+
             break;
         }
         else {
@@ -97,26 +108,8 @@ int* Level::placeItems(int gridSize, int level, char*** newWorld){ //place Mario
 
             randBoss1 = (rand()%gridSize);
             randBoss2 = (rand()%gridSize);
-            notSame = true;
         }
     }
-    
-    //store Marios position in the integer array
-    marioPosition[0] = randMario1;
-    marioPosition[1] = randMario2;
-
-    //create a temporary version of the level to be printed into the output file
-    char** holder = new char*[gridSize];
-    holder = newWorld[level];
-    for (int i = 0; i < gridSize; i++){
-        for (int j = 0; j < gridSize; j++){
-            cout << holder[i][j];
-        }
-    cout << endl;
-    }
-    cout << "==========" << endl;
-    newWorld[level] = holder;
-    
     return marioPosition;
 }
 
@@ -148,18 +141,31 @@ int* Level::placeItemsNoWarp(int gridSize, int level, char*** newWorld){ //place
     //store Marios position in the integer array
     marioPosition[0] = randMario3;
     marioPosition[1] = randMario4;
-
-    //create a temporary version of the level to be printed into the output file
-    char** holder = new char*[gridSize];
-    holder = newWorld[level];
-    for (int i = 0; i < gridSize; i++){
-        for (int j = 0; j < gridSize; j++){
-            cout << holder[i][j];
-        }
-    cout << endl;
-    }
-    cout << "==========" << endl;
-    newWorld[level] = holder;
-    
     return marioPosition;
+}
+
+string Level::toString(int levels, int gridSize){ //create a string representation of the world to be used in main
+    string s = "";
+    for (int i = 0; i < levels; i++) {
+        for (int j = 0; j < gridSize; j++) {
+            for(int k = 0; k < gridSize; k++){
+                s += newWorld[i][j][k];
+            }
+            s+= "\n";
+        }
+        s += "\n";
+        s += "\n";
+    }
+    return s;
+}
+
+string Level::currToString(int level, int gridSize){ //create a string representation of the current level to be used in string
+    string s = "";
+    for (int j = 0; j < gridSize; j++) {
+        for(int k = 0; k < gridSize; k++){
+            s += newWorld[level][j][k];
+        }
+        s += "\n";
+    }
+    return s;
 }

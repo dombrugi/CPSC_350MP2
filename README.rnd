@@ -4,15 +4,10 @@ Dominic Brugioni
 Description:
 This is a program that takes in a file as input, uses the information in that file to generate a 3D array of characters representing a Super Mario-style
 world, and then plays through the world by moving a Mario character throughout the array and simulating his interactions with the different characters
-in the array.
+in the array. It then outputs the results of his interactions along with his stats to a txt file.
 
 Partners:
 Dylan Calderon
 
-Issues:
-So many. Honestly would be happy with anything above a 50. Next time will be better. I have commented out the loop in the Driver since it creates an
-infinite loop, but I wanted to at least show my idea.
-
-Successes:
-Created a 3D array of levels, gave Mario movement logic, learned how to use the output file to figure out what's wrong after creating
-an infinite loop in terminal.
+References: 
+Hayden Kaufmann - Helped with move logic and building main class.

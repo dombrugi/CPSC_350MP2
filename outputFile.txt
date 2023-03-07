@@ -1,0 +1,1755 @@
+gcbmx
+gggkm
+cckwg
+Hxxmc
+xxckx
+
+
+xcbxg
+xckcx
+kxkwx
+Hcmmm
+ccxxm
+
+
+xcbxg
+xckcx
+kxkwx
+Hcmmm
+ccxxm
+
+
+xckxg
+bckcx
+kxkkx
+mHmmm
+ccxxm
+
+
+Current Level is 0.
+Mario is currently at index 3, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 0 coins.
+Mario will move Down
+
+gcbmx
+gggkm
+cckwg
+xxxmc
+Hxckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 0 coins.
+Mario will move Right
+
+gcbmx
+gggkm
+cckwg
+xxxmc
+xHckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 1.
+Mario's current power level is 0.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 1 coins.
+Mario will move Down
+
+gHbmx
+gggkm
+cckwg
+xxxmc
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 0, 1.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 1 coins.
+Mario will move UP
+
+gxbmx
+gggkm
+cckwg
+xxxmc
+xHckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 1.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 1 coins.
+Mario will move Left
+
+gxbmx
+gggkm
+cckwg
+xxxmc
+Hxckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 1 coins.
+Mario will move Left
+
+gxbmx
+gggkm
+cckwg
+xxxmc
+xxckH
+
+
+Current Level is 0.
+Mario is currently at index 4, 4.
+Mario's current power level is 0.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move UP
+
+gxbmx
+gggkm
+cckwg
+xxxmH
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 4.
+Mario's current power level is 0.
+Mario picked up a mushroom!
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move Left
+
+gxbmx
+gggkm
+cckwg
+xxxHx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 3.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move Right
+
+gxbmx
+gggkm
+cckwg
+xxxxH
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 4.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move Right
+
+gxbmx
+gggkm
+cckwg
+Hxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 0.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move Left
+
+gxbmx
+gggkm
+cckwg
+xxxxH
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 4.
+Mario's current power level is 3.
+Mario fought a Goomba.
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move UP
+
+gxbmx
+gggkm
+cckwH
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 4.
+Mario's current power level is 3.
+Mario picked up a mushroom!
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move UP
+
+gxbmx
+gggkH
+cckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 1, 4.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 2 coins.
+Mario will move Down
+
+gxbmx
+gggkx
+cckwH
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 4.
+Mario's current power level is 3.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Right
+
+gxbmx
+gggkx
+Hckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 0.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbmx
+gggkx
+xckwx
+Hxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 0.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbmx
+gggkx
+xckwx
+xxxxx
+Hxckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 0.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Left
+
+gxbmx
+gggkx
+xckwx
+xxxxx
+xxckH
+
+
+Current Level is 0.
+Mario is currently at index 4, 4.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbmH
+gggkx
+xckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 0, 4.
+Mario's current power level is 3.
+Mario picked up a mushroom!
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Left
+
+gxbHx
+gggkx
+xckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 0, 3.
+Mario's current power level is 3.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbHx
+gggkx
+xckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 0, 3.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Right
+
+gxbxH
+gggkx
+xckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 0, 4.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbxx
+gggkH
+xckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 1, 4.
+Mario's current power level is 2.
+Mario fought a Goomba.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Right
+
+gxbxx
+Hggkx
+xckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 1, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbxx
+xggkx
+Hckwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbxx
+xggkx
+xckwx
+Hxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Down
+
+gxbxx
+xggkx
+xckwx
+xxxxx
+Hxckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Left
+
+gxbxx
+xggkx
+xckwx
+xxxxx
+xxckH
+
+
+Current Level is 0.
+Mario is currently at index 4, 4.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Right
+
+gxbxx
+xggkx
+xckwx
+xxxxx
+Hxckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Left
+
+gxbxx
+xggkx
+xckwx
+xxxxx
+xxckH
+
+
+Current Level is 0.
+Mario is currently at index 4, 4.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move UP
+
+gxbxx
+xggkx
+xckwx
+xxxxH
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 4.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Right
+
+gxbxx
+xggkx
+xckwx
+Hxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 3 coins.
+Mario will move Right
+
+gxbxx
+xggkx
+xckwx
+xHxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 1.
+Mario's current power level is 2.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move UP
+
+gxbxx
+xggkx
+xHkwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Left
+
+gxbxx
+xggkx
+Hxkwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Down
+
+gxbxx
+xggkx
+xxkwx
+Hxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Right
+
+gxbxx
+xggkx
+xxkwx
+xHxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Down
+
+gxbxx
+xggkx
+xxkwx
+xxxxx
+xHckx
+
+
+Current Level is 0.
+Mario is currently at index 4, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move UP
+
+gxbxx
+xggkx
+xxkwx
+xHxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Right
+
+gxbxx
+xggkx
+xxkwx
+xxHxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 3, 2.
+Mario's current power level is 2.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move UP
+
+gxbxx
+xggkx
+xxHwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 2.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Left
+
+gxbxx
+xggkx
+xHxwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Right
+
+gxbxx
+xggkx
+xxHwx
+xxxxx
+xxckx
+
+
+Current Level is 0.
+Mario is currently at index 2, 2.
+Mario's current power level is 2.
+Mario took a warp pipe to the next level.
+Mario has 4 lives.
+Mario has 4 coins.
+Mario will move Right
+
+gxbxx
+xggkx
+xxHwx
+xxxxx
+xxckx
+
+
+Current Level is 1.
+Mario is currently at index 3, 0.
+Mario's current power level is 2.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 5 coins.
+Mario will move Down
+
+xcbxg
+xckcx
+kxkwx
+xcmmm
+Hcxxm
+
+
+Current Level is 1.
+Mario is currently at index 4, 0.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 5 coins.
+Mario will move Down
+
+Hcbxg
+xckcx
+kxkwx
+xcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 0, 0.
+Mario's current power level is 2.
+Mario fought a Goomba.
+Mario has 4 lives.
+Mario has 5 coins.
+Mario will move Left
+
+Hcbxg
+xckcx
+kxkwx
+xcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 0, 0.
+Mario's current power level is 1.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 6 coins.
+Mario will move Right
+
+xHbxg
+xckcx
+kxkwx
+xcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 0, 1.
+Mario's current power level is 1.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move Down
+
+xxbxg
+xHkcx
+kxkwx
+xcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 1, 1.
+Mario's current power level is 1.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move Right
+
+xxbxg
+xHkcx
+kxkwx
+xcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 1, 1.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move Left
+
+xxbxg
+Hxkcx
+kxkwx
+xcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 1, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+Hxbxg
+xxkcx
+kxkwx
+xcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 0, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+xxbxg
+xxkcx
+kxkwx
+xcmmm
+Hcxxm
+
+
+Current Level is 1.
+Mario is currently at index 4, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+xxbxg
+xxkcx
+kxkwx
+Hcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 3, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move Down
+
+xxbxg
+xxkcx
+kxkwx
+xcmmm
+Hcxxm
+
+
+Current Level is 1.
+Mario is currently at index 4, 0.
+Mario's current power level is 0.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+xxbxg
+xxkcx
+kxkwx
+Hcmmm
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 3, 0.
+Mario's current power level is 0.
+Mario picked up a mushroom!
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move Left
+
+xxbxg
+xxkcx
+kxkwx
+xcmmH
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 3, 4.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+xxbxg
+xxkcx
+kxkwH
+xcmmx
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 2, 4.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+xxbxg
+xxkcH
+kxkwx
+xcmmx
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 1, 4.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move Down
+
+xxbxg
+xxkcx
+kxkwH
+xcmmx
+xcxxm
+
+
+Current Level is 1.
+Mario is currently at index 2, 4.
+Mario's current power level is 3.
+Mario took a warp pipe to the next level.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move Left
+
+xxbxg
+xxkcx
+kxkwH
+xcmmx
+xcxxm
+
+
+Current Level is 2.
+Mario is currently at index 3, 0.
+Mario's current power level is 3.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+xcbxg
+xckcx
+Hxkwx
+xcmmm
+ccxxm
+
+
+Current Level is 2.
+Mario is currently at index 2, 0.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 7 coins.
+Mario will move UP
+
+xcbxg
+Hckcx
+xxkwx
+xcmmm
+ccxxm
+
+
+Current Level is 2.
+Mario is currently at index 1, 0.
+Mario's current power level is 3.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move Right
+
+xcbxg
+xHkcx
+xxkwx
+xcmmm
+ccxxm
+
+
+Current Level is 2.
+Mario is currently at index 1, 1.
+Mario's current power level is 3.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move Right
+
+xcbxg
+xxHcx
+xxkwx
+xcmmm
+ccxxm
+
+
+Current Level is 2.
+Mario is currently at index 1, 2.
+Mario's current power level is 3.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move UP
+
+xcbxg
+xxHcx
+xxkwx
+xcmmm
+ccxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 1.
+Mario's current power level is 3.
+Mario picked up a mushroom!
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move Right
+
+xckxg
+bckcx
+kxkkx
+mxHmm
+ccxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 2.
+Mario's current power level is 3.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move UP
+
+xckxg
+bckcx
+kxkkx
+mxHmm
+ccxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 2.
+Mario's current power level is 2.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move UP
+
+xckxg
+bckcx
+kxkkx
+mxHmm
+ccxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 2.
+Mario's current power level is 1.
+Mario picked up a mushroom!
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move Right
+
+xckxg
+bckcx
+kxkkx
+mxxHm
+ccxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 3.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move Left
+
+xckxg
+bckcx
+kxkkx
+mxHxm
+ccxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 2.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move Down
+
+xckxg
+bckcx
+kxkkx
+mxxxm
+ccHxm
+
+
+Current Level is 3.
+Mario is currently at index 4, 2.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move UP
+
+xckxg
+bckcx
+kxkkx
+mxHxm
+ccxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 2.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 8 coins.
+Mario will move Down
+
+xckxg
+bckcx
+kxkkx
+mxxxm
+ccHxm
+
+
+Current Level is 3.
+Mario is currently at index 4, 2.
+Mario's current power level is 3.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 9 coins.
+Mario will move Left
+
+xckxg
+bckcx
+kxkkx
+mxxxm
+cHxxm
+
+
+Current Level is 3.
+Mario is currently at index 4, 1.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 9 coins.
+Mario will move UP
+
+xckxg
+bckcx
+kxkkx
+mHxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 1.
+Mario's current power level is 3.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 9 coins.
+Mario will move UP
+
+xckxg
+bckcx
+kHkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 1.
+Mario's current power level is 3.
+Mario fought a Koopa.
+Mario has 4 lives.
+Mario has 9 coins.
+Mario will move Left
+
+xckxg
+bckcx
+kHkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 9 coins.
+Mario will move Down
+
+xckxg
+bckcx
+kxkkx
+mHxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 9 coins.
+Mario will move UP
+
+xckxg
+bckcx
+kHkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 1.
+Mario's current power level is 2.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 10 coins.
+Mario will move UP
+
+xckxg
+bHkcx
+kxkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 1.
+Mario's current power level is 2.
+Mario found a coin!
+Mario has 4 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xHkxg
+bxkcx
+kxkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 11 coins.
+Mario will move Down
+
+xxkxg
+bHkcx
+kxkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 11 coins.
+Mario will move Down
+
+xxkxg
+bxkcx
+kHkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 11 coins.
+Mario will move Down
+
+xxkxg
+bxkcx
+kxkkx
+mHxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xxkxg
+bxkcx
+kHkkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 11 coins.
+Mario will move Down
+
+xxkxg
+bxkcx
+kxkkx
+mHxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 1.
+Mario's current power level is 2.
+Mario found nothing at this index.
+Mario has 4 lives.
+Mario has 11 coins.
+Mario will move Right
+
+xxkxg
+bxkcx
+kxkkx
+mxHxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 3, 2.
+Mario's current power level is 2.
+Mario fought a Koopa.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xxkxg
+bxkcx
+kxHkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 2.
+Mario's current power level is 2.
+Mario fought a Koopa.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xxkxg
+bxkcx
+kxHkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 2.
+Mario's current power level is 1.
+Mario fought a Koopa.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xxkxg
+bxHcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move Left
+
+xxkxg
+bHxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 1.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xHkxg
+bxxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 1.
+Mario's current power level is 1.
+Mario fought a Koopa.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move Right
+
+xxHxg
+bxxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move Down
+
+xxxxg
+bxHcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xxHxg
+bxxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move Left
+
+xHxxg
+bxxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 1.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move Right
+
+xxHxg
+bxxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move Down
+
+xxxxg
+bxHcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move UP
+
+xxHxg
+bxxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 11 coins.
+Mario will move Right
+
+xxxHg
+bxxcx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 3.
+Mario's current power level is 1.
+Mario found a coin!
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Down
+
+xxxxg
+bxxHx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 3.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move UP
+
+xxxHg
+bxxxx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 0, 3.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Down
+
+xxxxg
+bxxHx
+kxxkx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 3.
+Mario's current power level is 1.
+Mario fought a Koopa.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Down
+
+xxxxg
+bxxxx
+kxxHx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 3.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Right
+
+xxxxg
+bxxxx
+kxxxH
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 4.
+Mario's current power level is 1.
+Mario fought a Koopa.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Right
+
+xxxxg
+bxxxx
+Hxxxx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 0.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Left
+
+xxxxg
+bxxxx
+xxxxH
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 4.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Left
+
+xxxxg
+bxxxx
+xxxHx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 3.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Left
+
+xxxxg
+bxxxx
+xxHxx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 2.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Left
+
+xxxxg
+bxxxx
+xHxxx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 1.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move UP
+
+xxxxg
+bHxxx
+xxxxx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 1, 1.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Down
+
+xxxxg
+bxxxx
+xHxxx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 1.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 5 lives.
+Mario has 12 coins.
+Mario will move Left
+
+xxxxg
+bxxxx
+Hxxxx
+mxxxm
+cxxxm
+
+
+Current Level is 3.
+Mario is currently at index 2, 0.
+Mario's current power level is 1.
+Mario found nothing at this index.
+Mario has 1 lives.
+Mario has 12 coins.
+Mario will move UP
+
+xxxxg
+bxxxx
+Hxxxx
+mxxxm
+cxxxm
+
+
+
+Mario saved the princess!

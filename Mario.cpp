@@ -8,6 +8,8 @@ Mario::Mario(){
     mCoins = 0;
     mLives = 0;
     mKills = 0;
+    mMove = "";
+    mAction = "";
 }
 
 Mario::Mario(int V){
@@ -15,6 +17,8 @@ Mario::Mario(int V){
     mCoins = 0;
     mKills = 0;
     mLives = V;
+    mMove = "";
+    mAction = "";
 }
 
 Mario::~Mario(){
@@ -68,97 +72,88 @@ void Mario::gainCoin(){
     }
 }
 
-void Mario::fightKoopa(Mario &m1){ //simulate a fight with a koopa according to the rules from the assignment
+bool Mario::fightKoopa(Mario &m1){ //simulate a fight with a koopa according to the rules from the assignment
     mPL = m1.getPL();
     mLives = m1.getLives();
     mKills = m1.getKills();
-    int random = rand() % 20;
     bool enemyStatus = false;
-    while(enemyStatus == false){
-        int random = rand() % 20;
-        if(random <= 12){
-            cout << "You defeated the Koopa!" << endl;
+    int random = rand() % 99 + 1;
+        if(random <= 65){
             ++mKills;
             m1.setKills(mKills);
             if(mKills == 7){
-                cout << "Your mKills is " << mKills <<  "! You gain a life!" << endl;
                 ++mLives;
                 m1.setLives(mLives);
             }
-            enemyStatus = true;
-            break;
+            return true;
         }else{
             if(mPL == 0){
                 if(1 < mLives){
                     --mLives;
                     m1.setLives(mLives);
-                    cout << "You lost to the Koopa and your power level was at 0! You lose a life!" << endl;
                     mKills = 0;
                     m1.setKills(mKills);
                 }else{
-                    cout << "You lost, your power level was 1 or lower and your lives where at 1! You lose the game!" << endl;
+                    m1.setLives(0);
                 }
             }else{
                 --mPL;
                 m1.setPL(mPL);
-                cout << "You lost to the Koopa! Your power level is " << mPL << endl;
             }
         }
-    }
+    return false;
 }
 
-void Mario::fightGoomba(Mario &m1){ //simulate a fight with a goomba according to the rules from the assignment
+bool Mario::fightGoomba(Mario &m1){ //simulate a fight with a goomba according to the rules from the assignment
     mPL = m1.getPL();
     mLives = m1.getLives();
     mKills = m1.getKills();
     bool enemyStatus = false;
-    while(enemyStatus == false){
-        int random = rand() % 5;
-        if(random <= 3){
-            cout << "You defeated the Goomba!" << endl;
+        int random = rand() % 99 + 1;
+        if(random <= 80){
             ++mKills;
             m1.setKills(mKills);
             if(mKills == 7){
-                cout << "Your mKills is " << mKills <<  "! You gain a life!" << endl;
                 ++mLives;
                 m1.setLives(mLives);
             }
             enemyStatus = true;
-            break;
+            return true;
         }else{
             if(mPL == 0){
                 if(1 < mLives){
                     --mLives;
                     m1.setLives(mLives);
-                    cout << "You lost to the Goomba and your power level was at 0! You lose a life!" << endl;
                     mKills = 0;
                     m1.setKills(mKills);
                 }else{
-                    cout << "You lost, your power level was 0 and your lives where at 1! You lose the game!" << endl;
+                    m1.setLives(0);
                 }
             }else{
                 --mPL;
                 m1.setPL(mPL);
-                cout << "You lost to the Goomba! Your power level is " << mPL << endl;
             }
         }
-    }
+    return false;
 }
 
 bool Mario::fightBoss(Mario &m1, bool levelStatus){ //simulate a fight with the level boss according to the rules from the assignment, end the level if Mario wins
     mPL = m1.getPL();
     mLives = m1.getLives();
     mKills = m1.getKills();
-    while(levelStatus == false){
+
+    bool exit = false;
+    bool ret = false;
+
+    while(exit == false){
         int random = rand() % 2;
         switch (random) {
             case 0:
-                levelStatus = true;
-                cout << "You defeated the Boss!" << endl;
+                exit = true;
+                ret = true;
                 ++mKills;
                 m1.setKills(mKills);
                 if(mKills == 7){
-                    cout << "Your mKills is " << mKills <<  "! You gain a life!" << endl;
                     ++mLives;
                     mKills = 0;
                     m1.setKills(mKills);
@@ -166,34 +161,31 @@ bool Mario::fightBoss(Mario &m1, bool levelStatus){ //simulate a fight with the 
                 break;
             case 1: 
                 if(mPL <= 1){
-                    if(1 < mLives){
+                    if(mLives > 1){
                         --mLives;
                         m1.setLives(mLives);
-                        cout << "You lost to the Boss and your power level was at 1 or 0! You lose a life! You have " << mLives << " live(s)." << endl;
                         mKills = 0;
                         m1.setKills(mKills);
                     }else{
-                        cout << "You lost, your power level was 1 or lower and your lives where at 1! You lose the game!" << endl;
-                        levelStatus = true;
-                        m1.setLives(mLives);
+                        exit = true;
+                        ret = false;
+                        m1.setLives(0);
                     }
                 }else{
                     mPL = mPL - 2;
                     m1.setPL(mPL);
-                    cout << "You lost to the Boss! You're power level is " << mPL << endl;
                 }
                 break;
         }
     }
-levelStatus = false;
-return levelStatus;
+return ret;
 }
 
 
-void Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, int mPL, int mLives, int mKills, bool levelStatus, bool livesLeft, char*** newWorld, bool enemyStatus){
-    srand((unsigned)time(0));
-    int randMove = rand()%4;
+int Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, int mPL, int mLives, int mKills, bool levelStatus, bool livesLeft, char*** newWorld, bool enemyStatus){
+    int randMove = rand() % 4;
     int* nextMove = new int[2];
+    bool enStatus = false;
 
     switch (randMove){ //randomly determine Mario's next move
         case 0:
@@ -202,6 +194,7 @@ void Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, 
             if (nextMove[0] < 0){ //account for torus
                 nextMove[0] = gridSize - 1; 
             }
+            mMove = "UP";
             break;
         case 1:
             nextMove[0] = marioPosition[0]+1;
@@ -209,6 +202,7 @@ void Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, 
             if (nextMove[0] > gridSize - 1){ //account for torus
                 nextMove[0] = 0;
             }
+            mMove = "Down";
             break;
         case 2:
             nextMove[0] = marioPosition[0];
@@ -216,6 +210,7 @@ void Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, 
             if (nextMove[1] > gridSize - 1){ //account for torus
                 nextMove[1] = 0;
             }
+            mMove = "Right";
             break;
         case 3:
             nextMove[0] = marioPosition[0];
@@ -223,6 +218,7 @@ void Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, 
             if (nextMove[1] < 0){ //account for torus
                 nextMove[1] = gridSize - 1;
             }
+            mMove = "Left";
             break;
         default:
             break;
@@ -230,51 +226,53 @@ void Mario::move(Mario &m1, int* marioPosition, int gridSize, int currentLevel, 
     switch (newWorld[currentLevel][nextMove[0]][nextMove[1]]){ //run appropriate interactions based on the character Mario moves to
         case 'c':
             m1.gainCoin();
-            enemyStatus = true;
+            enStatus = true;
+            mAction = "Mario found a coin!";
             break;
         case 'g':
-            m1.fightGoomba(m1);
+            enStatus = m1.fightGoomba(m1);
+            mAction = "Mario fought a Goomba.";
             break;
         case 'k':
-            m1.fightKoopa(m1);
+            enStatus = m1.fightKoopa(m1);
+            mAction = "Mario fought a Koopa.";
             break;
         case 'm':
             m1.gainLevel();
-            enemyStatus = true;
+            enStatus = true;
+            mAction = "Mario picked up a mushroom!";
             break;
         case 'x':
-            cout << "Mario found nothing at this index." << endl;
+            mAction =  "Mario found nothing at this index.";
+            enStatus = true;
             break;
         case 'b':
-            m1.fightBoss(m1, levelStatus);
+            enStatus = m1.fightBoss(m1, levelStatus);
+            if(enStatus == true && m1.getLives() > 0){
+                return 3; //next level
+            }
             break;
         case 'w':
             levelStatus = true;
+            enStatus = true;
+            mAction = "Mario took a warp pipe to the next level.";
+            return 3; //next level
         default:
             break;
     }
-    if (enemyStatus == true){
+
+    if (enStatus == true){
         newWorld[currentLevel][marioPosition[0]][marioPosition[1]] = 'x'; //put nothing in the square mario was in
         marioPosition[0] = nextMove[0];
         marioPosition[1] = nextMove[1];
         newWorld[currentLevel][nextMove[0]][nextMove[1]] = 'H'; //put mario in the square the thing he interacted with was in
+        return 1; //successful move
     }
-} 
-
-string Mario::marioResult(int* marioPosition, int coins, int PL, int lives, int level, string marioMove, string move){ //creates a string version of Mario's attributes to be added to the output file
-    string result;
-    int marioRow = marioPosition[0];
-    int marioColumn = marioPosition[1];
-    result += "Level: " + to_string(level) + ".\n";
-    result += "Mario is at [" + to_string(marioRow) + "][" + to_string(marioColumn) + "]" + ".\n";
-    result += "Mario's power level is " + to_string(PL) + ".\n";
-    result += marioMove + "\n";
-    result += "Mario's lives are " + to_string(lives) + ".\n";
-    result += "Mario's coins are " + to_string(coins) + ".\n";
-    result += "Mario will move " + move + ".\n";
-    cout << result; 
+    if(m1.getLives() == 0){
+        return 0; //death
+    }
+    return 2; //failed move
 }
-
 
 //accessors and mutators
 int Mario::getPL(){
@@ -307,4 +305,12 @@ int Mario::getKills(){
 
 void Mario::setKills(int kills){
     mKills = kills;
+}
+
+string Mario::getMove(){
+    return mMove;
+}
+
+string Mario::getAction(){
+    return mAction;
 }
